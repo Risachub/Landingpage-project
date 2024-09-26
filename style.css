@@ -1,0 +1,187 @@
+*{
+  margin: 2;
+  font-family: "Open Sans", "Raleway" sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  font-family: "Open Sans";
+  height: 100vh;
+ 
+}
+/* .......................................... */
+/* Styling for Navbar and logo */
+/* .......................................... */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  
+}
+.navlinks > li{
+  display: inline-block;
+  margin-right: 40px;
+  color: hsl(238, 22%, 44%);
+}
+a:link{
+  color: hsl(224, 93%, 58%); 
+}
+/* .......................................... */
+
+/* ........................................... */
+/* Styling for flex Container */
+/* ........................................... */
+.flexcontainer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 70px 40px;
+}
+.flexcontainer > div{
+  width: 100%;
+  margin: 5px 40px;
+}
+.over-con{
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: repeat-x;
+  padding: 10px;
+}
+.flexcontainer-2{
+  background-color: hsl(240, 75%, 98%); 
+  display: flex;
+  justify-content: flex-start;
+  padding: 70px 40px;
+  margin-top: 40px;
+}
+.flexcontainer-2 > div{
+  width: 100%;
+  margin: 5px 40px;
+}
+.card{
+  width: 50%;
+  border-radius: 7px;
+  box-shadow: hsl(0, 0%, 60%) 5px 5px 5px 10px;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+.flexcontainer-3{
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: flex-start;
+  padding: 70px 40px;
+}
+.flexcontainer-3 > div{
+  width: 100%;
+  margin: 5px 40px;
+}
+
+/* ............................................ */
+/* Heading/Paragrahs Element */
+/* ............................................ */
+h1{
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 38px;
+ 
+}
+p{
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+.text-for-sect-3-footer{
+  color: #fff;
+}
+/* ........................................... */
+/* Form */
+/* ........................................... */
+input{
+  width: 50%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-style: solid rgb(254, 3, 3) 1px;
+  float: left;
+}
+
+.input1{
+  width: 60%;
+  padding: 15px 15px;
+  margin-left: 12px;
+}
+ 
+
+/* ............................................. */
+/* buttons */
+/* ............................................. */
+button{
+  width: 40%;
+  background-color: hsl(238, 22%, 44%);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 15px;
+  color: #fff;
+  
+}
+
+.button1{
+  width: 30%;
+  background-color: hsl(224, 93%, 58%);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  display: block;
+  margin-top: 60px;
+}
+
+/* ............................................. */
+/* images */
+/* ............................................. */
+.img-avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 80px;
+  float: left;
+  padding: 7px 10px;
+}
+.img-logo{
+  filter: grayscale(100%);
+  width: 100px;
+  height: 30px;
+  display: block;
+}
+
+
+/* ....................................... */
+/* ICONS */
+/* ....................................... */
+.fa-solid{
+  padding-top: 20px;
+  
+}
+.fa-brands{
+  font-size: 20PX;
+  padding: 7px;
+}
+
+/* ........................................ */
+/* ..footer */
+/* ........................................ */
+footer{
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  justify-content: flex-start;
+  padding: 70px 40px;
+}
+footer > div{
+  width: 100%;
+  margin: 5px 40px;
+
+}
+/* .................................... */
+
+@media screen and (max-width: 300px) {
+  .over-all-container{width: 100%;}
+}
